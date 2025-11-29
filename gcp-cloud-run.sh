@@ -306,8 +306,8 @@ get_user_input() {
         fi
     done
     while true; do
-        read -p "Enter UUID [default: 5652a909-a0b4-48dd-ae29-972757489bf0]: " UUID_INPUT
-        UUID=${UUID_INPUT:-"5652a909-a0b4-48dd-ae29-972757489bf0"}
+        read -p "Enter UUID [default: c47c5cb7-200d-49f6-8c9f-5269fbb3a356]: " UUID_INPUT
+        UUID=${UUID_INPUT:-"c47c5cb7-200d-49f6-8c9f-5269fbb3a356"}
         if validate_uuid "$UUID"; then
             break
         fi
